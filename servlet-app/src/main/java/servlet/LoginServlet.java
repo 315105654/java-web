@@ -44,7 +44,7 @@ public class LoginServlet extends HttpServlet {
         String userName = req.getParameter("user_name");
         String passWord = req.getParameter("pass_word");
 
-        System.out.println("账号【1】：" + userName);
+        System.out.println("账号【(1)】：" + userName);
         System.out.println("密码【2】：" + passWord);
     }
 }
